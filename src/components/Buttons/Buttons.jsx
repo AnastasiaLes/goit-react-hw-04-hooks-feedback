@@ -7,7 +7,6 @@ import { FeedbackButtons, FeedbackButton } from '../App/App.styled';
 export const Controls = ({ options, onLeaveFeedback }) => (
   <FeedbackButtons>
     {options.map(option => (
-      // console.log(option);
       <FeedbackButton
         key={nanoid()}
         type="button"
